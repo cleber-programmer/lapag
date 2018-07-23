@@ -1,0 +1,28 @@
+#
+
+    O Cleber agendou um conte de cabelo com o Matheus, amanha as 11 horas
+
+Elementos:
+
+    . Cliente
+    . Agenda
+    . Servico
+    . Profissional
+    . Dia
+    . Hora
+
+Ex:
+
+    var maria = Cliente.do_nome('maria')
+    var corte_de_cabelo = Servico.do_id(0)
+    var ana = Profissional.do_id(0)
+    var sabado = Dia(new Date)
+    var doze_horas = Hora(new Date)
+
+Caso 1:
+
+    var agendamento = maria.agendou_um(corte_de_cabelo).com_a(ana).no(sabado).as(doze_horas)
+
+Caso 2:
+
+    Cliente.cancelou_seu(agendamento)
