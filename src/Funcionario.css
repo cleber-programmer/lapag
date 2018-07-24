@@ -1,0 +1,16 @@
+.funcionario {
+    flex-grow: 1;
+}
+
+.funcionario + .funcionario {
+    border-left: 1px solid #F0F0F0;
+}
+
+.funcionario_nome {
+    padding: 10px;
+    margin: 0;
+}
+
+.funcionario_escala-de-horas {
+    position: relative;
+}

@@ -1,4 +1,5 @@
 import { returnProfessionals } from '../mocks/apiMocks'
+import io from './IO'
 
 class Profissional {
   static async do_id (id) {
@@ -12,6 +13,10 @@ class Profissional {
 
   get nome () {
     return this.__oneOff__.name
+  }
+
+  get agendamentos () {
+    return io.filter(a => a.profissional.id == this.id)
   }
 
   constructor (_id, name) {

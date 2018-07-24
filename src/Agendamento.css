@@ -1,0 +1,145 @@
+.agendamento {
+    background: #6D5CAE;
+    color: #E2DEEF;
+    font-size: 11px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.as_8h { top: calc(0 * 60px); }
+.as_9h { top: calc(1 * 60px); }
+.as_10h { top: calc(2 * 60px); }
+.as_11h { top: calc(3 * 60px); }
+.as_12h { top: calc(4 * 60px); }
+.as_13h { top: calc(5 * 60px); }
+.as_14h { top: calc(6 * 60px); }
+.as_15h { top: calc(7 * 60px); }
+.as_16h { top: calc(8 * 60px); }
+.as_17h { top: calc(9 * 60px); }
+.as_18h { top: calc(10 * 60px); }
+
+.e_0m { margin-top: 0; }
+.e_1m { margin-top: 1px; }
+.e_2m { margin-top: 2px; }
+.e_3m { margin-top: 3px; }
+.e_4m { margin-top: 4px; }
+.e_5m { margin-top: 5px; }
+.e_6m { margin-top: 6px; }
+.e_7m { margin-top: 7px; }
+.e_8m { margin-top: 8px; }
+.e_9m { margin-top: 9px; }
+.e_10m { margin-top: 10px; }
+.e_11m { margin-top: 11px; }
+.e_12m { margin-top: 12px; }
+.e_13m { margin-top: 13px; }
+.e_14m { margin-top: 14px; }
+.e_15m { margin-top: 15px; }
+.e_16m { margin-top: 16px; }
+.e_17m { margin-top: 17px; }
+.e_18m { margin-top: 18px; }
+.e_19m { margin-top: 19px; }
+.e_20m { margin-top: 20px; }
+.e_21m { margin-top: 21px; }
+.e_22m { margin-top: 22px; }
+.e_23m { margin-top: 23px; }
+.e_24m { margin-top: 24px; }
+.e_25m { margin-top: 25px; }
+.e_26m { margin-top: 26px; }
+.e_27m { margin-top: 27px; }
+.e_28m { margin-top: 28px; }
+.e_29m { margin-top: 29px; }
+.e_30m { margin-top: 30px; }
+.e_31m { margin-top: 31px; }
+.e_32m { margin-top: 32px; }
+.e_33m { margin-top: 33px; }
+.e_34m { margin-top: 34px; }
+.e_35m { margin-top: 35px; }
+.e_36m { margin-top: 36px; }
+.e_37m { margin-top: 37px; }
+.e_38m { margin-top: 38px; }
+.e_39m { margin-top: 39px; }
+.e_40m { margin-top: 40px; }
+.e_41m { margin-top: 41px; }
+.e_42m { margin-top: 42px; }
+.e_43m { margin-top: 43px; }
+.e_44m { margin-top: 44px; }
+.e_45m { margin-top: 45px; }
+.e_46m { margin-top: 46px; }
+.e_47m { margin-top: 47px; }
+.e_48m { margin-top: 48px; }
+.e_49m { margin-top: 49px; }
+.e_50m { margin-top: 50px; }
+.e_51m { margin-top: 51px; }
+.e_52m { margin-top: 52px; }
+.e_53m { margin-top: 53px; }
+.e_54m { margin-top: 54px; }
+.e_55m { margin-top: 55px; }
+.e_56m { margin-top: 56px; }
+.e_57m { margin-top: 57px; }
+.e_58m { margin-top: 58px; }
+.e_59m { margin-top: 59px; }
+
+.duracao_de_0m { height: 0; }
+.duracao_de_1m { height: 1px; }
+.duracao_de_2m { height: 2px; }
+.duracao_de_3m { height: 3px; }
+.duracao_de_4m { height: 4px; }
+.duracao_de_5m { height: 5px; }
+.duracao_de_6m { height: 6px; }
+.duracao_de_7m { height: 7px; }
+.duracao_de_8m { height: 8px; }
+.duracao_de_9m { height: 9px; }
+.duracao_de_10m { height: 10px; }
+.duracao_de_11m { height: 11px; }
+.duracao_de_12m { height: 12px; }
+.duracao_de_13m { height: 13px; }
+.duracao_de_14m { height: 14px; }
+.duracao_de_15m { height: 15px; }
+.duracao_de_16m { height: 16px; }
+.duracao_de_17m { height: 17px; }
+.duracao_de_18m { height: 18px; }
+.duracao_de_19m { height: 19px; }
+.duracao_de_20m { height: 20px; }
+.duracao_de_21m { height: 21px; }
+.duracao_de_22m { height: 22px; }
+.duracao_de_23m { height: 23px; }
+.duracao_de_24m { height: 24px; }
+.duracao_de_25m { height: 25px; }
+.duracao_de_26m { height: 26px; }
+.duracao_de_27m { height: 27px; }
+.duracao_de_28m { height: 28px; }
+.duracao_de_29m { height: 29px; }
+.duracao_de_30m { height: 30px; }
+.duracao_de_31m { height: 31px; }
+.duracao_de_32m { height: 32px; }
+.duracao_de_33m { height: 33px; }
+.duracao_de_34m { height: 34px; }
+.duracao_de_35m { height: 35px; }
+.duracao_de_36m { height: 36px; }
+.duracao_de_37m { height: 37px; }
+.duracao_de_38m { height: 38px; }
+.duracao_de_39m { height: 39px; }
+.duracao_de_40m { height: 40px; }
+.duracao_de_41m { height: 41px; }
+.duracao_de_42m { height: 42px; }
+.duracao_de_43m { height: 43px; }
+.duracao_de_44m { height: 44px; }
+.duracao_de_45m { height: 45px; }
+.duracao_de_46m { height: 46px; }
+.duracao_de_47m { height: 47px; }
+.duracao_de_48m { height: 48px; }
+.duracao_de_49m { height: 49px; }
+.duracao_de_50m { height: 50px; }
+.duracao_de_51m { height: 51px; }
+.duracao_de_52m { height: 52px; }
+.duracao_de_53m { height: 53px; }
+.duracao_de_54m { height: 54px; }
+.duracao_de_55m { height: 55px; }
+.duracao_de_56m { height: 56px; }
+.duracao_de_57m { height: 57px; }
+.duracao_de_58m { height: 58px; }
+.duracao_de_59m { height: 59px; }
+.duracao_de_60m { height: 60px; }

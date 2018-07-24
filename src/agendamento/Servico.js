@@ -2,8 +2,8 @@ import { returnServices } from '../mocks/apiMocks'
 
 class Servico {
   static async do_id (id) {
-    var { _id, name } = (await returnServices()).filter(s => s._id == id).shift()
-    return new Servico(_id, name)
+    var { _id, name, duration } = (await returnServices()).filter(s => s._id == id).shift()
+    return new Servico(_id, name, duration)
   }
 
   get id () {
@@ -14,8 +14,12 @@ class Servico {
     return this.__oneOff__.name
   }
 
-  constructor (_id, name) {
-    this.__oneOff__ = { _id, name }
+  get duracao () {
+    return this.__oneOff__.duration
+  }
+
+  constructor (_id, name, duration) {
+    this.__oneOff__ = { _id, name, duration }
     return this
   }
 }

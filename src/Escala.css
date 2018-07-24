@@ -1,0 +1,15 @@
+.escala {
+    border-top: 1px solid #F0F0F0;
+    height: 60px;
+    position: relative;
+}
+
+.escala::after {
+    border-top: 1px solid #FAFAFA;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}

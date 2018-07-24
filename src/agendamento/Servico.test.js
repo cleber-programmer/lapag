@@ -14,3 +14,8 @@ it('Deve retornar o nome do Servico quando acessar a propriedade nome', async fu
   var servico = await Servico.do_id('F2ke4teiMDzxKrrKn')
   expect(servico.nome).toBe('Escova')
 })
+
+it('Deve retornar a duracao do Servico quando acessar a propriedade duracao', async function () {
+  var servico = await Servico.do_id('F2ke4teiMDzxKrrKn')
+  expect(servico.duracao).toBe('60')
+})

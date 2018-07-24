@@ -3,6 +3,7 @@ import Servico from './Servico'
 import Profissional from './Profissional'
 import Dia from './Dia'
 import Hora from './Hora'
+import io from './IO'
 
 var leticia
 var tintura
@@ -20,11 +21,13 @@ beforeEach(async function () {
 })
 
 it('Leticia agendou uma tintura com a Ana no sabado as 12h', function () {
+  var quantidade_de_agendamentos = io.length
   agendamento = leticia.agendou_um(tintura).com_a(ana).no(sabado).as(dozeHoras)
-  expect(Cliente.agendamentos).toHaveLength(1)
+  expect(io.length).toBeGreaterThan(quantidade_de_agendamentos)
 })
 
 it('Leticia desmarcou seu agendamento', function () {
+  var quantidade_de_agendamentos = io.length
   Cliente.cancelou_seu(agendamento)
-  expect(Cliente.agendamentos).toHaveLength(0)
+  expect(io.length).toBeLessThan(quantidade_de_agendamentos)
 })

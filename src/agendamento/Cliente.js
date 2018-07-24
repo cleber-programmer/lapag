@@ -1,16 +1,11 @@
 import Agenda from './Agenda'
 import { returnClients } from '../mocks/apiMocks'
-
-var io = []
+import io from './IO'
 
 class Cliente {
-  static get agendamentos () {
-    return [...io]
-  }
-
-  static cancelou_seu (scheduling) {
-    io = io.filter(a => a !== scheduling)
-    return this
+  static cancelou_seu (agendamento) {
+    io.splice(io.indexOf(agendamento), 1)
+    return Cliente
   }
 
   static async do_nome (nome) {
