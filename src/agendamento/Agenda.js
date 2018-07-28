@@ -38,6 +38,15 @@ class Agenda {
     this.__oneOff__ = { hour, ...this.__oneOff__ }
     return this
   }
+
+  toComponent () {
+    return {
+      hora: this.hora.toString(),
+      servico: this.servico,
+      profissional: this.profissional,
+      cliente: this.cliente
+    }
+  }
 }
 
 export default Agenda

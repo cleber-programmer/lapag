@@ -1,0 +1,11 @@
+.marcar-hora {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    left: 0;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}

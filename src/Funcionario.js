@@ -3,6 +3,7 @@ import Escala from './Escala'
 import { ABRE_AS, FECHA_AS } from './agendamento/IO'
 import Agendamento from './Agendamento'
 import Profissional from './agendamento/Profissional'
+import Cliente from './agendamento/Cliente'
 import './Funcionario.css'
 
 function escalaDeHoras () {
@@ -18,7 +19,15 @@ class Funcionario extends Component {
 
   async componentDidMount () {
     var agendamentos = (await Profissional.do_id(this.props._id)).agendamentos
+    Cliente.fez_um_agendamento(this.novo_agendamento.bind(this))
     this.setState({ agendamentos })
+    return this
+  }
+
+  novo_agendamento (agendamento) {
+    if (agendamento.profissional.id === this.props._id) {
+      this.setState({ agendamentos: [agendamento, ...(this.state.agendamentos || [])] })
+    }
     return this
   }
 

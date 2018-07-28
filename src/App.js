@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './logo-white.png'
+import MarcarHora from './MarcarHora'
 import './App.css'
 
 import Agenda from './Agenda'
@@ -12,5 +13,6 @@ export default () => (
     </div>
     {/* <p className='App-intro'>Start the test here!</p> */}
     <Agenda />
+    <MarcarHora />
   </div>
 )
